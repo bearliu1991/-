@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="clearfix"></div>
-        <div class="friend-link">
+        <!-- <div class="friend-link">
           <div class="friend-link-item">
             <ul>
               <li v-for="(link, index) in moreLink" :key="index">
@@ -37,10 +37,25 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div> -->
         <div class="clearfix"></div>
-        <div class="copyright">
-          <p>Copyright © 2018 by Gavin <a href="https://github.com/PowerDos"><Icon type="social-github"></Icon></a> <span>本项目仅供学习参考</span></p>
+        <div class="friend-link">
+          <div class="friend-link-item">
+            <ul>
+              <li>
+                <span class="link-item">浙ICP备19006810号</span>
+              </li>
+              <li>
+                <span class="link-item">公司名称：杭州齐货网络科技有限公司</span>
+              </li>
+              <li>
+                <span class="link-item">地址：浙江省杭州市萧山区博地中心-A座1301</span>
+              </li>
+              <li>
+                <span class="link-item link-last-item">联系电话：0571-82138016</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
@@ -60,7 +75,7 @@ export default {
         [ '售后服务', '售后政策', '价格保护', '退款说明', '返修/退换货', '取消订单' ]
       ],
       moreLink: [
-        '关于我们', '联系我们', '联系客服', '合作招商', '商家帮助', '营销中心', '销售联盟', '校园社区', '风险监测', '隐私政策'
+        
       ]
     };
   }

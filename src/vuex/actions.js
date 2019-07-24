@@ -333,7 +333,7 @@ export const loadGoodsInfo = ({ commit }) => {
           },
           {
             title: '店铺',
-            content: 'Gavin Shop'
+            content: 'qihuo Shop'
           },
           {
             title: '商品毛重',
@@ -668,7 +668,7 @@ export const loadAddress = ({ commit }) => {
     const address = [
       {
         addressId: '123456',
-        name: 'Gavin',
+        name: 'qihuo',
         province: '广东省',
         city: '广州市',
         area: '天河区',
@@ -721,7 +721,7 @@ export const addSignUpUser = ({ commit }, data) => {
 // 用户登录
 export const login = ({ commit }, data) => {
   return new Promise((resolve, reject) => {
-    if (data.username === 'Gavin' && data.password === '123456') {
+    if (data.username === 'qihuo' && data.password === '123456') {
       localStorage.setItem('loginInfo', JSON.stringify(data));
       commit('SET_USER_LOGIN_INFO', data);
       resolve(true);
